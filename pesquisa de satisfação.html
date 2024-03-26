@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Satisfação</title>
+</head>
+<body>
+  <h1>Formulario de Satisfação</h1>
+  <form>
+    <h2>Dados Pessoais</h2>
+    <p>
+      <label for="email">E-mail</label>
+      <input type="email" name="Dados" id="email">
+    </p>
+    <p>
+      <label for="senha">Senha</label>
+      <input type="password" name="Dados" id="senha">
+    </p>
+    <p>
+      <label for="telefone">Telefone</label>
+      <input type="number" name="Dados" id="telefone">
+    </p>
+
+    <h3>Satisfação dos produtos Phallébeauty</h3>
+    <strong>Como você descreve sua experiência com os produtos de skincare
+    Phallébeauty?</strong>
+    <p>
+      <label for="satisfatória">Satisfatória</label>
+      <input type="radio" name="experiência" id="satisfatória">
+    </p>
+    <p>
+      <label for="desagradável">Desagradável</label>
+      <input type="radio" name="experiência" id="desagradável">
+    </p>
+    <p>
+      <label for="nulo">Sem opinião</label>
+      <input type="radio" name="experiência" id="nulo">
+    </p>
+    
+    <h3>Como você conheceu nossos produtos?</h3>
+    <p>
+      <label for="amigos">Recomendação de amigos</label>
+      <input type="radio" name="descoberta" id="amigos">
+    </p>
+    <p>
+      <label for="família">Recomendação Familiar</label>
+      <input type="radio" name="descoberta" id="família">
+    </p>
+    <p>
+      <label for="aletório">Outra forma</label>
+      <input type="radio" name="descoberta" id="aleatório">
+    </p>
+
+    <h3>Qual produto você já comprou de nossa marca?</h3>
+    <p>
+      Produtos
+      <select>
+        <option value="Sabonete Facial">Sabonete Facial</option>
+          <option value="Hidratante Facial">Hidratante Facial</option>
+         <option value="Hidratante Corporal">Hidratante Corporal</option>
+        <option value="Esfoliante Corporal">Esfoliante Corporal</option>
+      </select>
+    </p>
+  <p>
+    Você autoriza que estas informações sejam passadas para terceiros?</p>
+    <p>
+    <label for="autorização">Estou de acordo</label>
+    <input type="checkbox" name="autorizar" id="autorização">
+  </p>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
